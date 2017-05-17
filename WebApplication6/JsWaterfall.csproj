@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30702C95-BA27-4D4F-B135-24277E78CC8F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication6</RootNamespace>
+    <AssemblyName>WebApplication6</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\style.css" />
+    <Content Include="images\0.jpg" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\10.jpg" />
+    <Content Include="images\11.jpg" />
+    <Content Include="images\12.jpg" />
+    <Content Include="images\13.jpg" />
+    <Content Include="images\14.jpg" />
+    <Content Include="images\15.jpg" />
+    <Content Include="images\16.jpg" />
+    <Content Include="images\17.jpg" />
+    <Content Include="images\18.jpg" />
+    <Content Include="images\19.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\20.jpg" />
+    <Content Include="images\21.jpg" />
+    <Content Include="images\22.jpg" />
+    <Content Include="images\23.jpg" />
+    <Content Include="images\24.jpg" />
+    <Content Include="images\25.jpg" />
+    <Content Include="images\26.jpg" />
+    <Content Include="images\27.jpg" />
+    <Content Include="images\28.jpg" />
+    <Content Include="images\29.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\30.jpg" />
+    <Content Include="images\31.jpg" />
+    <Content Include="images\32.jpg" />
+    <Content Include="images\33.jpg" />
+    <Content Include="images\34.jpg" />
+    <Content Include="images\35.jpg" />
+    <Content Include="images\36.jpg" />
+    <Content Include="images\37.jpg" />
+    <Content Include="images\38.jpg" />
+    <Content Include="images\39.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\40.jpg" />
+    <Content Include="images\41.jpg" />
+    <Content Include="images\42.jpg" />
+    <Content Include="images\43.jpg" />
+    <Content Include="images\44.jpg" />
+    <Content Include="images\45.jpg" />
+    <Content Include="images\46.jpg" />
+    <Content Include="images\47.jpg" />
+    <Content Include="images\48.jpg" />
+    <Content Include="images\49.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\50.jpg" />
+    <Content Include="images\51.jpg" />
+    <Content Include="images\52.jpg" />
+    <Content Include="images\53.jpg" />
+    <Content Include="images\54.jpg" />
+    <Content Include="images\55.jpg" />
+    <Content Include="images\56.jpg" />
+    <Content Include="images\57.jpg" />
+    <Content Include="images\58.jpg" />
+    <Content Include="images\59.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\60.jpg" />
+    <Content Include="images\61.jpg" />
+    <Content Include="images\62.jpg" />
+    <Content Include="images\63.jpg" />
+    <Content Include="images\64.jpg" />
+    <Content Include="images\65.jpg" />
+    <Content Include="images\66.jpg" />
+    <Content Include="images\67.jpg" />
+    <Content Include="images\68.jpg" />
+    <Content Include="images\69.jpg" />
+    <Content Include="images\7.jpg" />
+    <Content Include="images\70.jpg" />
+    <Content Include="images\71.jpg" />
+    <Content Include="images\72.jpg" />
+    <Content Include="images\73.jpg" />
+    <Content Include="images\74.jpg" />
+    <Content Include="images\75.jpg" />
+    <Content Include="images\76.jpg" />
+    <Content Include="images\77.jpg" />
+    <Content Include="images\78.jpg" />
+    <Content Include="images\79.jpg" />
+    <Content Include="images\8.jpg" />
+    <Content Include="images\80.jpg" />
+    <Content Include="images\81.jpg" />
+    <Content Include="images\82.jpg" />
+    <Content Include="images\83.jpg" />
+    <Content Include="images\84.jpg" />
+    <Content Include="images\85.jpg" />
+    <Content Include="images\86.jpg" />
+    <Content Include="images\87.jpg" />
+    <Content Include="images\88.jpg" />
+    <Content Include="images\89.jpg" />
+    <Content Include="images\9.jpg" />
+    <Content Include="images\90.jpg" />
+    <Content Include="images\91.jpg" />
+    <Content Include="images\92.jpg" />
+    <Content Include="images\93.jpg" />
+    <Content Include="images\94.jpg" />
+    <Content Include="images\95.jpg" />
+    <Content Include="images\96.jpg" />
+    <Content Include="images\97.jpg" />
+    <Content Include="images\kuang.png" />
+    <Content Include="images\kuang2.png" />
+    <Content Include="images\layerclose.hover.png" />
+    <Content Include="images\left_hover.png" />
+    <Content Include="images\list.dragover.png" />
+    <Content Include="images\right_hover.png" />
+    <Content Include="images\SmallImgLeft.png" />
+    <Content Include="images\smallImgRight.png" />
+    <Content Include="Index.html" />
+    <Content Include="js\app.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:21448/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

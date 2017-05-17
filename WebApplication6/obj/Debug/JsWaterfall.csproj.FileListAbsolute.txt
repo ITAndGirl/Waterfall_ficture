@@ -1,0 +1,5 @@
+E:\测试\WebApplication6\WebApplication6\bin\WebApplication6.dll
+E:\测试\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+E:\测试\WebApplication6\WebApplication6\obj\Debug\JsWaterfall.csprojResolveAssemblyReference.cache
+E:\测试\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+E:\测试\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
